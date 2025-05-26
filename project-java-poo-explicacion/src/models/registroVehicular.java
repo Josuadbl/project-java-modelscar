@@ -14,6 +14,32 @@ public class registroVehicular {
         this.fecha = fecha;
         
     }
+    
+    public String getMatricula (){
+        return matricula;
+    }
+
+    public String getPropietario (){
+        return propietario;
+    }
+    
+    public String getFecha (){
+        return fecha;
+    }
+
+    public void  setMatricula (String matricula){
+        this.matricula = matricula;
+    }
+
+    public void setPropietario (String propietario){
+        this.propietario = propietario;
+    }
+
+    public void setFecha (String fecha) {
+        this.fecha = fecha;
+    }
+
+
 
     
     public void displayInfo() {

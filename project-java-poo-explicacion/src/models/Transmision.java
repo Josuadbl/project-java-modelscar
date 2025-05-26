@@ -11,6 +11,24 @@ public class Transmision {
         this.automatico = automatico;
         this.secuencial = secuencial;
     } 
+        public String getManual() {
+            return manual;
+    }
+        public String getAutomatico() {
+            return automatico;
+    }
+        public String getSecuencial() {
+            return secuencial;
+    }
+        public void setManual(String manual) {
+            this.manual = manual;
+    }
+        public void setAutomatico(String automatico) {
+            this.automatico = automatico;
+    }
+        public void setSecuencial(String secuencial) {
+            this.secuencial = secuencial;
+    }
 
     public void displayInfo(){
         System.out.println("Transmision Information:");

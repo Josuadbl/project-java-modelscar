@@ -15,6 +15,31 @@ public class Mantenimiento {
         
     }
 
+    public String getUltimoMantenimiento () {
+        return ultimoMantenimiento;
+
+    }
+
+    public String getProximoMantenimiento () {
+        return proximoMantenimiento;
+    }
+
+    public String getTipoServicio () {
+        return tipoServicio;
+    }
+
+    public void setUltimoMantenimiento (String ultimoMantenimiento) {
+        this.ultimoMantenimiento = ultimoMantenimiento;
+    }
+
+    public void setProximoMantenimiento (String proximoMantenimiento) {
+        this.proximoMantenimiento = proximoMantenimiento;
+    }
+
+    public void setTiposervicio (String tipoServicio) {
+        this.tipoServicio = tipoServicio;
+    }
+
     
     public void displayInfo() {
         System.out.println("Mantenimiento Information:");

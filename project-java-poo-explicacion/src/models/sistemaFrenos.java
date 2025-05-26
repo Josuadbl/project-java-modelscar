@@ -13,6 +13,26 @@ public class sistemaFrenos {
         this.abs = abs;
         this.estado = estado;
     }
+
+    public String getdiscos() {
+        return discos;
+    }
+    public String getabs (){
+        return abs;
+    }
+    public String getestado() {
+        return estado;
+    }
+
+    public void setdiscos(String discos) {
+        this.discos = discos;
+    }
+    public void setabs(String abs) {
+        this.abs = abs;
+    }
+    public void setestado(String estado) {
+        this.estado = estado;
+    }
    
     
 

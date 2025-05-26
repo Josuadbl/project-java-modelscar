@@ -13,6 +13,29 @@ public class Neumatico {
         this.medida = medida;
     }
 
+    public String getMarca (){
+        return marca;
+    }
+
+    public String getModelo (){
+        return modelo;
+    }
+
+    public String getMedida(){
+        return medida;
+    }
+
+    public void setMarca (String marca){
+        this.marca = marca;
+    }
+    
+    public void setModelo (String modelo){
+        this.modelo = marca;
+    }
+
+    public void setMedida (String medida){
+        this.medida = medida;
+    }
     
     public void displayInfo() {
         System.out.println("Neumatico Information:");
